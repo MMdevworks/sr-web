@@ -1,6 +1,6 @@
 import "./HeroImgStyles.css";
 import React from "react";
-import hero from "../assets/hero.png";
+import hero from "../assets/hero3.png";
 import { Link } from "react-router-dom";
 
 
