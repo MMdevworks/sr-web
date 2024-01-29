@@ -4,8 +4,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="footer">
-    <div className="footer-container">
+    <div className="about">
+    <div className="about-container">
         <div className="left">
         <div className="location">
             

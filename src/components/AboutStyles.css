@@ -1,9 +1,9 @@
-.footer {
+.about {
     width: 100%;
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
-.footer-container {
+.about-container {
     max-width: 1140px;
     margin: auto;
     display: grid;
@@ -19,14 +19,19 @@
     padding: 1rem;
 }
 
-.location {
-    display: flex;
-    margin-bottom: 0.8rem;
+.left p {
+    font-size: 1.1rem;
+    font-weight: 200;
 }
 
+/* .location {
+    display: flex;
+    margin-bottom: 0.8rem;
+} */
+/* 
 .location p {
     line-height: 30px;
-}
+} */
 
 .right {
     height: 100%;
