@@ -1,0 +1,43 @@
+.product-sec-heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.product-sec-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding: 1rem 5rem;
+}
+
+.product-sec-card {
+    background: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    padding: 1rem 1rem;
+}
+
+.product-sec-title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    padding: 1rem 0;
+}
+
+.product-sec-details p {
+    color: black;
+    font-size: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+@media screen and (max-width:740px) {
+    .product-sec-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
