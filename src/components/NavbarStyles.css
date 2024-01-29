@@ -14,6 +14,10 @@
     transition: 1s;
 }
 
+.sr-img {
+    max-height: 3rem;
+}
+
 .nav-menu {
     display: flex;
 }

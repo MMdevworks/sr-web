@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import React, {useState} from "react";
 import "./NavbarStyles.css";
 import { FaBars, FaTimes } from "react-icons/fa";
+import sr from "../assets/SR1.png";
 
 const Navbar = () => {
 
@@ -23,7 +24,8 @@ window.addEventListener("scroll", changeColor);
     // <div className="header">
     <div className={color ? "header header-bg" : "header"}>
         <Link to ="/">
-            <h1>SR</h1>
+            <img className="sr-img" src={sr} alt="hero"/>
+            {/* <h1>SR</h1> */}
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
