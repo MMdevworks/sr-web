@@ -1,7 +1,5 @@
 import React from 'react';
 import "./ProductStyles.css";
-// import p1 from "../assets/p1.png";
-import { NavLink } from 'react-router-dom';
 
 const Product = (props) => {
   return (

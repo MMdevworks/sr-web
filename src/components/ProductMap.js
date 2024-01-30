@@ -6,7 +6,6 @@ import ProductData from './ProductData';
 const ProductMap = () => {
   return (
     <div className='work-container'>
-        {/* <h1 className='product-heading'>Products</h1> */}
         <div className='product-container'>
           {ProductData.map((value,index) => {
             return (
