@@ -25,7 +25,6 @@ window.addEventListener("scroll", changeColor);
     <div className={color ? "header header-bg" : "header"}>
         <Link to ="/">
             <img className="sr-img" src={sr} alt="hero"/>
-            {/* <h1>SR</h1> */}
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
