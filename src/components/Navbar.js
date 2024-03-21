@@ -43,7 +43,7 @@ window.addEventListener("scroll", changeColor);
                 <Link to="/events">Events</Link>
             </li> */}
             <li>
-                <a href="mailto: mark@squareresults.com">Contact</a>
+                <a href="mailto: testemail.com">Contact</a>
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

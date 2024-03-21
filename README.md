@@ -1,4 +1,4 @@
-# SquareResults
+# Landing Page
 
 This website was built with Javascript, React and styled with CSS
 

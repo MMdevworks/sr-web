@@ -17,14 +17,14 @@ const Footer = () => {
             <div className="email">
                 <h4>
                     <FaMailBulk size={20} style={{color:"white", marginRight:"2rem"}}/>
-                    <a href="mailto: mark@squareresults.com">mark@squareresults.com</a>
+                    <a href="mailto: testemail.com">testemail.com</a>
                </h4>
             </div>
             </div>
 
             <div className="right">
-                <p>7150 East Camelback Rd Suite 444</p>
-                <p>Scottsdale, AZ 85251</p>
+                <p>5555 East Camelback Rd</p>
+                <p>Scottsdale, AZ 12345</p>
          
             </div>
         </div>
